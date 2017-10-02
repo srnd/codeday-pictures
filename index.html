@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CodeDay Profile Picture Generator</title>
+    <script src="js/html2canvas.js" charset="utf-8"></script>
+    <script src="js/canvas2image.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="fonts/avenir-next.css">
+  </head>
+  <body>
+    <div id="content">
+      <h1>CodeDay Profile Picture Generator</h1>
+      <h3>Select a file</h3>
+      <input type="file" id="filepick" onchange="app.setImageFromFile()"></input>
+      <br/><br/>
+      <div id="picture">
+        <div class="logo"></div>
+        <div class="text">
+          <span class="dark">CodeDay</span>
+          <span class="subtitle">Fall 2017</span>
+        </div>
+      </div>
+      <br/>
+      <a id="dl" download="CodeDayPicture.png" href="#">Save</a>
+    </div>
+  </body>
+</html>
