@@ -20,6 +20,9 @@ h3{
   background-repeat: no-repeat;
   margin: 0 auto;
   position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .logo{
