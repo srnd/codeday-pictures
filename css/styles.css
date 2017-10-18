@@ -26,7 +26,7 @@ h3{
   cursor: default;
 }
 
-.logo{
+/*.logo{
   position: absolute;
   top: 0px;
   right: 0px;
@@ -38,17 +38,17 @@ h3{
   border-bottom-left-radius: 5px;
   background-repeat: no-repeat;
   background-size: 100px 100px;
-}
+}*/
 
 .text{
-  height: 80px;
+  height: 100px;
   width: 100%;
   background: rgba(203, 121, 114, 0.8);
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   line-height: 28px;
-  padding-top: 20px;
+  padding-top: 35px;
   letter-spacing: 1px;
 }
 
